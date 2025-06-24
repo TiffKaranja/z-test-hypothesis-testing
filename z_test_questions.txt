@@ -1,0 +1,246 @@
+Left-Tailed – Bottled Water Volume
+A company claims their water bottles contain 1 liter. A consumer group suspects the bottles contain less water.
+Population mean (μ): 1.00 L
+
+
+σ: 0.05 L
+
+
+Sample mean (x̄): 0.97 L
+
+
+Sample size (n): 36
+
+
+Significance level (α): 0.05
+
+
+H₀: μ >= 1.00
+ H₁: μ < 1.00
+
+2. Right-Tailed – Study Time Increase
+Students used a new study app. The usual average study time is 2.5 hours/day. Researchers think the app increased study time.
+μ: 2.5 hrs
+
+
+σ: 0.4 hrs
+
+
+x̄: 2.65 hrs
+
+
+n: 25
+
+
+α: 0.01
+
+
+H₀: μ <= 2.5
+ H₁: μ > 2.5
+
+3. Left-Tailed – Battery Life Drop
+A brand of batteries claims an average life of 100 hours. A user believes the life has decreased after a redesign.
+μ: 100 hrs
+
+
+σ: 10 hrs
+
+
+x̄: 96 hrs
+
+
+n: 64
+
+
+α: 0.05
+
+
+H₀: μ >= 100
+ H₁: μ < 100
+
+4. Right-Tailed – Sales Increase
+A store claims a promotional offer increased daily sales.
+μ: 200 units/day
+
+
+σ: 20
+
+
+x̄: 210
+
+
+n: 36
+
+
+α: 0.05
+
+
+H₀: μ <= 200
+ H₁: μ > 200
+
+5. Left-Tailed – Exam Scores Decrease
+A school fears switching to online learning dropped average scores.
+μ: 75
+
+
+σ: 8
+
+
+x̄: 72
+
+
+n: 49
+
+
+α: 0.01
+
+
+H₀: μ >= 75
+ H₁: μ < 75
+
+6. Right-Tailed – Weight Gain from Diet
+A nutritionist claims their diet helps people gain weight. Average pre-diet weight is 60kg.
+μ: 60 kg
+
+
+σ: 5
+
+
+x̄: 62 kg
+
+
+n: 25
+
+
+α: 0.05
+
+
+H₀: μ <= 60
+ H₁: μ > 60
+
+7. Left-Tailed – Internet Speed Drop
+An ISP promises 50 Mbps. A customer suspects speeds are lower.
+μ: 50 Mbps
+
+
+σ: 4
+
+
+x̄: 48.5 Mbps
+
+
+n: 30
+
+
+α: 0.05
+
+
+H₀: μ >= 50
+ H₁: μ < 50
+
+8. Right-Tailed – Milk Production Increase
+A farmer introduces a new feed, claiming it increased milk yield.
+μ: 15 L/day
+
+
+σ: 2
+
+
+x̄: 16.2 L/day
+
+
+n: 36
+
+
+α: 0.01
+
+
+H₀: μ <= 15
+ H₁: μ > 15
+
+TWO-TAILED Z-TESTS
+
+9. Two-Tailed – New Machine Consistency
+An old machine fills cans with 500 ml of soda. A new one is tested to see if it fills more or less.
+μ: 500 ml
+
+
+σ: 10 ml
+
+
+x̄: 496 ml
+
+
+n: 100
+
+
+α: 0.05
+
+
+H₀: μ = 500
+ H₁: μ ≠ 500
+
+10. Two-Tailed – Exam Difficulty
+Historically, students score 70 on a test. A new version of the test was introduced. Educators want to check if the scores are different.
+μ: 70
+
+
+σ: 6
+
+
+x̄: 68.2
+
+
+n: 36
+
+
+α: 0.01
+
+
+H₀: μ = 70
+ H₁: μ ≠ 70
+
+
+
+
+Question 1: Z-Test for Known Population Std Dev
+Q1: A manufacturer claims that the average length of its metal rods is 50 cm. A quality control analyst selects a random sample of 40 rods and finds the sample mean to be 48.7 cm. The population standard deviation is known to be 2.5 cm.
+Use a two-tailed Z-test at the 0.05 significance level to test whether the average rod length is significantly different from 50 cm.
+Python Task:
+Calculate the Z-score.
+
+
+Find the p-value.
+
+
+Conclude whether to reject the null hypothesis.
+
+
+
+Question 2: Hypothesis Test on Exam Scores
+Q2: A teacher claims that the average exam score in her class is 75. A student believes it's different. She collects a random sample of 30 exam scores and finds the mean to be 72. The population standard deviation is known to be 8.
+Perform a two-tailed Z-test at α = 0.01 to check if the mean is significantly different from 75.
+Python Inputs:
+μ = 75
+
+
+x̄ = 72
+
+
+σ = 8
+
+
+n = 30
+
+
+α = 0.01
+
+
+
+Question 3: Customer Spending Analysis
+Q3: A store claims that their average customer spends $200. A data analyst thinks this has changed. She collects data from 50 customers and finds an average of $190, with a known population standard deviation of $25.
+Test the claim using a two-tailed Z-test at the 5% significance level.
+
+Question 4: Package Weight Validation
+Q4: A company fills cereal boxes with a target weight of 500g. A random sample of 36 boxes has a mean weight of 495g. The population standard deviation is 12g.
+Conduct a two-tailed Z-test at α = 0.05 to determine if the mean weight differs from 500g.
