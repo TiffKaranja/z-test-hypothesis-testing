@@ -24,10 +24,6 @@ This repo contains a collection of beginner-friendly Z-Test scenarios to help yo
 
 ---
 
-Feel free to fork or star the repo if you find it useful!
-
----
-
 
 **LinkedIn:** [@Tiffany-Karanja](https://www.linkedin.com/in/tiffany-karanja-9983ab234/)
 **GitHub:** [@TiffKaranja](https://github.com/TiffKaranja)
